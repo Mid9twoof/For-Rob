@@ -1,0 +1,123 @@
+
+/* hand.html */
+.handheader{
+text-align: center;
+}
+
+.handrow{
+  height: 100%;
+}
+
+.handimg{
+  width: 100%;
+}
+
+.hand-btn{
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+
+/* index.html */
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 25%;
+}
+
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.sholder-btn{
+  margin-right: 40%;
+}
+
+.transhum-btn{
+  margin-right: 40%;
+  margin-top: 8%;
+}
+
+.transrad-btn{
+  margin-right: 42%;
+  margin-top: 19%;
+
+}
+
+.wristdis-btn{
+  margin-right: 42%;
+  margin-top: 24%;
+}
+
+.hands-btn{
+  margin-right: 45%;
+  margin-top: 30%;
+}
+
+@media (max-width:860px) {
+    /* matches 'btn-xs' */
+    .btn-responsive {
+        padding: 1px 5px;
+        font-size: 6px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+
+    .ph-size-btn{
+      padding:0px;
+      border: 0px;
+      background-color: white;
+      color: black;
+      font-size: 0.7rem;
+    }
+
+    .sholder-btn{
+      margin-right: 40%;
+    }
+
+    .transhum-btn{
+      margin-right: 40%;
+      margin-top: 8%;
+      margin-right: 40%;
+    }
+
+    .transrad-btn{
+      margin-right: 42%;
+      margin-top: 19%;
+    }
+
+    .wristdis-btn{
+      margin-right: 42%;
+      margin-top: 24%;
+    }
+
+    .hands-btn{
+      margin-right: 45%;
+      margin-top: 30%;
+    }
+
+}
