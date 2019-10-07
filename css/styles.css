@@ -1,5 +1,9 @@
 
 /* hand.html */
+
+h4{
+font-size: 0.7rem;
+}
 .handheader{
 text-align: center;
 }
@@ -9,14 +13,14 @@ text-align: center;
 }
 
 .handimg{
-  width: 100%;
+  width: 50%;
 }
 
 .hand-btn{
   margin-bottom: 0;
   font-weight: 500;
   line-height: 1.2;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* index.html */
@@ -78,7 +82,7 @@ text-align: center;
   margin-top: 30%;
 }
 
-@media (max-width:860px) {
+@media (max-width:960px) {
     /* matches 'btn-xs' */
     .btn-responsive {
         padding: 1px 5px;
@@ -119,5 +123,6 @@ text-align: center;
       margin-right: 45%;
       margin-top: 30%;
     }
+
 
 }
