@@ -82,7 +82,7 @@ text-align: center;
   margin-top: 30%;
 }
 
-@media (max-width:960px) {
+@media (max-width:1080px) {
     /* matches 'btn-xs' */
     .btn-responsive {
         padding: 1px 5px;
